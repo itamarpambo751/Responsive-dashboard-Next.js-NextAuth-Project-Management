@@ -1,0 +1,53 @@
+.text {
+    font-size: 15px;
+    font-weight: 600;
+}
+.success {
+    color: var(--green-light);
+}
+.failed {
+    color: var(--red);
+}
+.icon-box {
+    background-color: rgba(44, 44, 44, 0.329);
+    padding: 12px 14px;
+    border-radius: .5rem;
+}
+.icon i {
+    font-size: 1.1rem;
+}
+.icon-box.success {
+    color: var(--green-light);
+    background: var(--green-opacity);
+} 
+.cards-row {
+    margin-bottom: 1.5rem;
+}
+.cards-row div.card div.card-body div.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-row div.card div.card-body div.row div.col-9 .av {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+}
+.cards-row div.card div.card-body div.row div.col-9 .av p {
+    font-size: .9rem;
+}
+.cards-row div.card div.card-body div.row div.col-9 .av .mb-0 {
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.cards-row div.card div.card-body div.row div.col-9 .av .mb-1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.cards-row div.card div.card-body h6 {
+    font-size: 1rem;
+    margin-top: .6rem;
+    font-weight: 100;
+    color: var(--blue-text);
+}

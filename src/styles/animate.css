@@ -1,0 +1,13 @@
+.animate-left {
+    animation: animate-left .6s;
+}
+
+@keyframes animate-left {
+    0% {
+        margin-left: -200px;
+        opacity: 0%;
+    } 100% {
+        margin: initial;
+        opacity: 100%;
+    }   
+}

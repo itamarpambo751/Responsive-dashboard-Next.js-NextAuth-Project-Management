@@ -1,0 +1,13 @@
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-3.md-6 {
+    width: 30%;
+}
+.col-9 {
+    width: 70%;
+}

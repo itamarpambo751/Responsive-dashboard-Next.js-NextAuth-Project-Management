@@ -1,0 +1,432 @@
+#publicity-even-features {
+    background-color: #B31662;
+    width: 100%;
+    height: 85px;
+    padding: 0 20px;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+#publicity-even-features div.even-left-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    color: #fff;
+}
+#publicity-even-features div.even-left-side .even-left-text {
+    line-height: 1.5rem;
+}
+#publicity-even-features div.even-left-side p {
+    font-size: 14px;
+}
+#publicity-even-features div.even-right-side button.upgrate-to-pro {
+    padding: .7rem 1rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    border: 1px solid #ccc;
+    color: #FFF;
+    font-weight: bold;
+}
+.cards-row {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+.transaction-history {
+    background: var(--primary);
+    padding: 2rem 1.6rem;
+    border-radius: .2rem;
+    min-width: 350px;
+    width: 32%;
+    color: #fff;
+}
+.transaction-history h5 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.transaction-history .graphic-circle {
+    height: 190px;
+}
+.transaction-history div.transfer {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.transaction-history div.transfer div.transfer-to {
+    padding: 1.1rem 1rem;
+    background-color: var(--background-lite);
+    border-radius: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction-history div.transfer div.transfer-to h5 {
+    font-size: .9rem;
+    margin-bottom: .2rem;
+}
+.transaction-history div.transfer div.transfer-to span {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--blue-text);
+}
+.transaction-history div.transfer div.transfer-to strong {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.open-projects {
+    width: 70%;
+    min-width: 600px;
+}
+div.card.open-projects div.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+div.card.open-projects div.card-header span {
+    font-size: .85rem;
+    color: var(--blue-text);
+}
+div.card.open-projects ul.projects-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+div.card.open-projects ul.projects-list li:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+div.card.open-projects ul.projects-list li div.left-side {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+div.card.open-projects ul.projects-list li div.left-side .icon-square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.card.open-projects ul.projects-list li div.left-side .icon-square i {
+    font-size: 1.2rem;
+}
+div.card.open-projects ul.projects-list li div.left-side div.projects-list-labels {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+div.card.open-projects ul.projects-list li div.left-side div.projects-list-labels h5 {
+    font-size: 14px;
+}
+div.card.open-projects ul.projects-list li p,
+div.card.open-projects ul.projects-list li span {
+    font-size: .85rem;
+    color: var(--blue-text);
+}
+div.card.open-projects ul.projects-list li div.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: end;
+    
+}
+div.card.open-projects ul.projects-list li div.right-side span {
+    line-height: 1;
+    font-size: .88rem;
+}
+#sinces div.card {
+    min-width: 350px;
+}
+#sinces div.card div.card-body {
+    margin-top: -.5rem;
+    padding-bottom: 1rem;
+}
+#sinces div.card div.card-body h6 {
+    margin-top: -1.2rem;
+}
+#clients #clients-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .5rem;
+    width: 1160px;
+}
+#clients #clients-header li {
+    position: relative;
+}
+#clients #clients-header li:not(:first-child) {
+    flex: 1;
+}
+#clients #clients-header li:first-child {
+    padding-right: 3rem;
+}
+#clients #clients-header li h5 {
+    color: var(--blue-text);
+    font-weight: bolder;
+    font-size: .88rem;
+}
+#clients #clients-table {
+    width: 1160px;
+}
+#clients #clients-table .client {
+    display: flex;
+    padding: 1rem 0;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid var(--border);
+}
+#clients #clients-table .client li:not(:first-child) {
+    flex: 1;
+}
+#clients #clients-table .client li:first-child {
+    padding-right: 3rem;
+}
+#clients #clients-table .client li#client-profile {
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+#clients #clients-table .client span {
+    font-size: 0.88rem;
+    line-height: 1;
+    color: var(--blue-text);
+}
+#clients #clients-table .client li#client-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.bussiness-state button {
+    padding: .3rem .5rem;
+    background: transparent;
+    border-radius: .2rem;
+    font-weight: 900;
+}
+
+
+
+
+#messages-portifolio-toDoList div.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#messages-portifolio-toDoList div.card-header span {
+    font-size: .875rem;
+    color: var(--blue-text);
+}
+#messages-portifolio-toDoList div.card-body ul li,
+div.portifolio-slide.card  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+}
+#messages-portifolio-toDoList div.card-body ul li strong {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#messages-portifolio-toDoList div.card-body ul li div.left-side,
+div.portifolio-slide.card li div.left-side {
+    display: flex;
+    gap: .8rem;
+}
+#messages-portifolio-toDoList div.card-body ul li div.left-side img,
+div.portifolio-slide.card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#messages-portifolio-toDoList div.card-body ul li div.left-side .messages-people,
+div.portifolio-slide.card {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+#messages-portifolio-toDoList div.card-body ul li div.left-side .messages-people p,
+div.portifolio-slide.card  p {
+    font-size: .79rem;
+    color: var(--blue-text);
+}
+#messages-portifolio-toDoList div.card-body ul li span,
+div.portifolio-slide.card  span {
+    font-size: .7rem;
+    color: var(--blue-text);
+}
+
+
+#portifolio-slide {
+    width: 100%;
+    height: 200px;
+    background: #818181;
+    border-radius: .5rem;
+    background-image: url(../../public/assets/dashboard/Rectangle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portifolio-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portifolio-slide strong {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portifolio-slide li {
+    border-bottom: none !important;
+}
+.portifolio-slide li div.left-side .messages-people {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem !important;
+}
+.portifolio-slide .graphic {
+    width: 100%;
+    height: 15px;
+    margin-top: .3rem;
+    background-color: var(--border-dark);
+    position: relative;
+}
+.portifolio-slide .graphic .graphic-sizing {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 45%;
+    background: var(--green-light);
+}
+.portifolio-slide .normal-size {
+    font-size: 18px !important;
+}
+.portifolio-slide .icons-left-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+.portifolio-slide .icons-left-right div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0c17ec;
+    padding-top: .4rem;
+}
+.portifolio-slide .icons-left-right div i {
+    font-size: 1.5rem;
+    color: silver;
+}
+
+
+#toDoListForm {
+    display: flex;
+    gap: .5rem;
+}
+#toDoListForm input {
+    width: calc(100% - 1.6rem);
+    border-radius: .2rem;
+    padding: 10px;
+    border: 1px solid var(--blue-text);
+    background: transparent;
+    color: var(--blue-text);
+}
+
+#toDoListForm button {
+    padding: .5rem .8rem;
+    background: var(--blue);
+    color: #fff;
+    border-radius: .2rem;
+    font-size: 15px;
+}
+.toDoListBody ul {
+    margin-top: 1.6rem;
+}
+.toDoListBody ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toDoListBody ul li div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.toDoListBody ul li div p {
+    font-size: .8rem;
+    color: var(--blue-text);
+}
+.toDoListBody ul li i {
+    cursor: pointer;
+}
+
+
+
+.card.messages-card, .card.portifolio-slide, .card.toDoCard {
+    max-height: 465px;
+} 
+
+
+
+@media (max-width: 550px) {
+    div.card.open-projects ul.projects-list li {
+        display: block;
+    }
+    div.card.open-projects ul.projects-list li div.right-side {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 3.5rem;
+        gap: .2rem;
+        margin-top: .2rem;
+    }
+    .messages-card div.card-body ul li {
+        flex-direction: column;
+    }
+    .messages-card div.card-body ul li span {
+        padding-left: 3.3rem;
+        padding-top: .3rem;
+    }
+}
+@media (max-width: 600px) {
+    #publicity-even-features div.even-left-side {
+        gap: 0;
+    }
+    #publicity-even-features div.even-right-side button.upgrate-to-pro {
+        padding: .5rem .7rem;
+        font-size: 10px;
+    }
+}
+@media (max-width: 750px) {
+    #publicity-even-features div.even-left-side h3 {
+        font-size: 12px;
+    }
+    #publicity-even-features div.even-left-side p {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .transaction-history {
+        flex: 1;
+        width: 100%;
+    }
+    .transaction {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .open-projects {
+        width: 100%;
+    }
+}
+@media (max-width: 1500px) {
+    #clients {
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,143 @@
+@import url(./vendors/mdi/css/materialdesignicons.min.css);
+@import url(./vendors/flag-icon-css/css/flag-icon.min.css);
+@import url(./header.css);
+@import url(./card.css);
+@import url(./margin.css);
+@import url(./animate.css);
+@import url(./dropdown.css);
+@import url(./sidebar.css);
+@import url(./main.css);
+@import url(./dasboard.css);
+@import url(./dasboardCard.css);
+@import url(./columns.css);
+@import url(./signup.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+:root .black{
+  --text: #75767c;
+  --primary: #191C24;
+  --primary--: #12151E;
+  --green: #00AC4A;
+  --green-opacity-input: #06d96151;
+  --green-opacity: #00ac4b28;
+  --green-light: #08d148;
+  --pink: #C2155E;
+  --blue: #0090E7;
+  --blue-dark: #0a69a4;
+  --facebook-blue: #3f5ba2;
+  --facebook-blue-dark: #223460;
+  --red: #FC424A;
+  --red-light: #f10a0a;
+  --red-opacity: #e1101a25;
+  --orange: #E69900;
+  --violet: #6a1ff4;
+  --background: #0d0f16;
+  --background-lite: rgba(6, 9, 17, 0.457);
+  --primary-lite: #1e1e1e;
+  --border: #373e41a4;
+  --border-dark: #2F323A;
+  --blue-text: #64648c;
+}
+
+:root .light{
+  --text: #333;
+  --primary: #171971;
+  --green: #00AC4A;
+  --pink: #C2155E;
+  --blue: #0090E7;
+  --red: #FC424A;
+  --orange: #E69900;
+  --violet: #6a1ff4;
+  --background: #ccc;
+  --primary-lite: #1e1e1e;
+  --border: #2e2e2e;
+}
+
+html {
+  color: #c9c9c9;
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+body.black {
+  background: #000;
+}
+
+body.light {
+  background: #ccc;
+}
+
+button {
+  cursor: pointer;
+  z-index: 999;
+}
+
+input[type="checkbox"] {
+  height: 17px;
+  width: 17px;
+}
+
+.red {
+  color: var(--red);
+}
+.green {
+  color: var(--green);
+}
+.pink {
+  color: var(--pink);
+}
+.blue {
+  color: var(--blue);
+}
+.violet {
+  color: var(--violet);
+}
+.orange {
+  color: var(--orange);
+}
+
+.bcg-red {
+  background: var(--red);
+}
+.bcg-green {
+  background: var(--green);
+}
+.bcg-pink {
+  background: var(--pink);
+}
+.bcg-blue {
+  background: var(--blue);
+}
+.bcg-violet {
+  background: var(--violet);
+}
+.bcg-orange {
+  background: var(--orange);
+}
+.bcg-red-o {
+  background: var(--red-opacity);
+}
+
+.b-green {
+  border: 2px solid var(--green);
+}
+.b-orange {
+  border: 2px solid var(--orange);
+}
+.b-red {
+  border: 2px solid var(--red);
+}
+
+i.icon-lg {
+  font-size: 4rem;
+}

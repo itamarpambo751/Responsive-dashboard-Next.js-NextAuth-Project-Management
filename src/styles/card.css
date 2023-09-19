@@ -1,0 +1,15 @@
+div.card {
+    flex: 1;
+    background: var(--primary);
+    padding: 2rem 1.6rem;
+    border-radius: .2rem;
+    min-width: 250px;
+    color: #fff;
+}
+div.card-header {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+div.card-header h5 {
+    font-size: 1.1rem;
+}
