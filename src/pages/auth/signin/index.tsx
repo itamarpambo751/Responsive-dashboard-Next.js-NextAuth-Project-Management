@@ -13,11 +13,11 @@ const Signin: React.FC = () => {
           </div>
           <div className="form-groups">
             <div className="form-group">
-              <label htmlFor="useremail">Username or email *</label>
+              <label htmlFor="useremail">Username or email</label>
               <input type="text" id="useremail"/>
             </div>
             <div className="form-group">
-              <label htmlFor="useremail">Password *</label>
+              <label htmlFor="useremail">Password</label>
               <input type="password" id="password"/>
             </div>
             <div className="remember-me">

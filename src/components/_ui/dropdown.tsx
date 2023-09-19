@@ -1,4 +1,4 @@
-import React, { ElementType, ReactNode, useState } from 'react';
+import React, { ElementType, useState } from 'react';
 
 type ElementString = ElementType | string
 

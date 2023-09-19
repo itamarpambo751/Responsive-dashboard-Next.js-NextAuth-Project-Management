@@ -13,15 +13,15 @@ const Signup: React.FC = () => {
         </div>
         <div className="form-groups">
           <div className="form-group">
-            <label htmlFor="username">Username*</label>
+            <label htmlFor="username">Username</label>
             <input type="text" id="username"/>
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email*</label>
+            <label htmlFor="email">Email</label>
             <input type="text" id="email"/>
           </div>
           <div className="form-group">
-            <label htmlFor="password">Password *</label>
+            <label htmlFor="password">Password</label>
             <input type="password" id="password"/>
           </div>
           <div className="remember-me">

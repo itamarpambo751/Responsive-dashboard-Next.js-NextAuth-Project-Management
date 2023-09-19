@@ -14,7 +14,7 @@ const Header: React.FC = () => {
             <input type="text" placeholder='Search for product'/>
         </div>
         <div className='navbar-right-side'>
-            <button className="create-new-button" onClick={() => console.log("Create new project")}>+ Create New Project</button>
+            <button className="create-new-button"><i className="mdi mdi-plus"/> Create New Project</button>
             <div className='navbar-icons-group'>
                 <button>
                   <i className="mdi mdi-view-grid"></i>
@@ -30,11 +30,8 @@ const Header: React.FC = () => {
             </div>
             <div className='navbar-profile'>
                 <img src="./assets/faces/face17.jpg" alt="" />
-                <h5 onClick={() => alert("Clicked")}>Henry Klein <i className="mdi mdi-menu-down"/></h5>
-                <button className="navbar-toggler-small" onClick={() => {
-                  if (!state) alert("Show")
-                  setState(!state)
-                }}>
+                <h5>Henry Klein <i className="mdi mdi-menu-down"/></h5>
+                <button className="navbar-toggler-small">
                     <i className="mdi mdi-menu"/>
                 </button>
             </div>

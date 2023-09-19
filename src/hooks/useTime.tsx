@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 export function useTime (seconds: number) {
     const [hour, setHour] = useState(0)

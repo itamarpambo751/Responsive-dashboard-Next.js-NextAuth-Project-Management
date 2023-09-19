@@ -170,7 +170,7 @@ const Dashboard: React.FC = () => {
               <div className="col-9">
                 <div className="av">
                   <h3 className="mb-1">$32123</h3>
-                  <p className="text success">+3.5%</p>
+                  <p className="text success"><i className="mdi mdi-plus"></i> 3.5%</p>
                 </div>
               </div>
               <div className="col-3">
@@ -193,7 +193,7 @@ const Dashboard: React.FC = () => {
             <div className="col-9">
               <div className="av">
                 <h3 className="mb-1">$45850</h3>
-                <p className="text success">+8.3%</p>
+                <p className="text success"><i className="mdi mdi-plus"></i>8.3%</p>
               </div>
             </div>
             <div className="col-3">
@@ -216,7 +216,7 @@ const Dashboard: React.FC = () => {
             <div className="col-9">
               <div className="av">
                 <h3 className="mb-1">$2039</h3>
-                <p className="text failed">-2.1%</p>
+                <p className="text failed">2.1%</p>
               </div>
             </div>
             <div className="col-3">
