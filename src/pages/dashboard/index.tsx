@@ -1,10 +1,10 @@
 import DashboardCard from '@/components/_ui/dashboardCard';
 import React from 'react';
-import { ClientProps, clients } from '../mock/clients';
+import { ClientProps, clients } from '../api/mock/clients';
 import Client from '@/components/_ui/client';
-import { interatingPeoples } from '../mock/interacting';
+import { interatingPeoples } from '../api/mock/interacting';
 import MessagesPeopleInterator from '@/components/_ui/messagesPeoples';
-import { me } from '../mock/portifolio';
+import { me } from '../api/mock/portifolio';
 import Main from '@/components/_ui/main';
 
 // import { Container } from './styles';
